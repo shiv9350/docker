@@ -1,3 +1,3 @@
-FROM centos:latest
-RUN yum install -y httpd 
+FROM ubuntu:14.04
+ 
 
