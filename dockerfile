@@ -9,5 +9,6 @@ RUN unzip brighton.zip
 RUN cp -rvf brighton-html/* .
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+RUN mkdir sharma
  
 
